@@ -11,12 +11,22 @@
         <!-- Main content -->
         <div id="content">
             <h1>Chocolate Creation</h1>
-            <img src="./images/chocolate.png" alt="Delicious Chocolate">
+            <img id="slideshow" src="./images/chocolate.png" alt="Delicious Chocolate">
             <p>The journey of making chocolate begins with the cacao tree...</p>
             <button onclick="switchContent(event)">Switch Content</button>
-
+            <button id="toggleSlideshow">Toggle Slideshow</button>
+            <p id="count">0</p>
+            <button id="resetCounter">Reset Counter</button>
+            <!-- ... other content ... -->
         </div>
+        <!-- ... existing code ... -->
+<div class="instructions">
+    <p>Use arrow keys to move the content around!</p>
+</div>
+<!-- ... existing code ... -->
+
     </div>
     <script src="script.js"></script>
+    <script src="./scripts/main.js"></script>
 </body>
 </html>

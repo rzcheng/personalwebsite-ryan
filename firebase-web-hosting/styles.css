@@ -20,6 +20,13 @@ body {
     animation: slideUp 0.5s forwards;
 }
 
+#content {
+    background-color: #593c1f;
+
+    position: relative;
+    /* ... other styles ... */
+}
+
 @keyframes slideUp {
     to {
         transform: translateY(0);
